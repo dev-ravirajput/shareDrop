@@ -106,7 +106,10 @@
             <p>Scan the QR code or copy the link below to share your content across devices</p>
             
             <!-- QR Code -->
-            <div id="qr-code" class="qr-code"></div>
+            <div class="qrcode">
+                <canvas id="qr-code"></canvas>
+                <p>Scan to share</p>
+            </div>
             
             <!-- Share URL -->
             <div class="share-url-container">
